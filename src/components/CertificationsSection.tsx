@@ -6,7 +6,7 @@ const CertificationsSection = () => {
       title: "Red Hat Certified Enterprise Application Developer",
       icon: Award,
       color: "text-red-500",
-      link: "https://www.credly.com/badges/27a6b448-99ac-4b7d-bbf3-ec6a57fe532"
+      link: "https://www.credly.com/badges/27a6b448-99ac-4b7d-bbf3-ec6a57fe532f"
     },
     {
       title: "AWS Cloud Practitioner",
