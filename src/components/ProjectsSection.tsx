@@ -8,7 +8,7 @@ const ProjectsSection = () => {
       technologies: ["Java", "Spring Boot", "MySQL"],
       description: "Developed a Mutual Fund Investment Portal with Spring Boot backend, JWT security, and automated CI/CD pipelines, achieving high performance and reliability.",
       duration: "Sep 2024 — Dec 2024",
-      link: "https://github.com/bhadra06/investment-portal",
+      link: "https://github.com/bhadra06/EVERGROW",
       gradient: "from-blue-500/10 to-cyan-500/10"
     },
     {
