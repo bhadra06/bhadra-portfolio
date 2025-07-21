@@ -5,12 +5,14 @@ const CertificationsSection = () => {
     {
       title: "Red Hat Certified Enterprise Application Developer",
       icon: Award,
-      color: "text-red-500"
+      color: "text-red-500",
+      link: "https://www.credly.com/badges/27a6b448-99ac-4b7d-bbf3-ec6a57fe532"
     },
     {
       title: "AWS Cloud Practitioner",
       icon: CheckCircle,
-      color: "text-orange-500"
+      color: "text-orange-500",
+      link: "https://www.credly.com/badges/165a894b-869b-4594-b709-d38a95f9ea79"
     }
   ];
 
@@ -26,9 +28,12 @@ const CertificationsSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {certifications.map((cert, index) => (
-            <div
+            <a
               key={index}
-              className="bg-card soft-shadow rounded-2xl p-6 border border-border/50 hover:border-primary/20 transition-all duration-300 group"
+              href={cert.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-card soft-shadow rounded-2xl p-6 border border-border/50 hover:border-primary/20 transition-all duration-300 group block cursor-pointer"
             >
               <div className="flex items-center">
                 <div className="p-3 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors duration-300">
@@ -38,7 +43,7 @@ const CertificationsSection = () => {
                   {cert.title}
                 </h3>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
