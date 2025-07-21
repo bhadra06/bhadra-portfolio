@@ -8,7 +8,7 @@ const ProjectsSection = () => {
       technologies: ["Java", "Spring Boot", "MySQL"],
       description: "Developed a Mutual Fund Investment Portal with Spring Boot backend, JWT security, and automated CI/CD pipelines, achieving high performance and reliability.",
       duration: "Sep 2024 — Dec 2024",
-      link: "#", // placeholder
+      link: "https://github.com/bhadra06/investment-portal",
       gradient: "from-blue-500/10 to-cyan-500/10"
     },
     {
@@ -16,7 +16,7 @@ const ProjectsSection = () => {
       technologies: ["MERN Stack"],
       description: "Optimized database queries and application performance, ensuring a 2x faster system and smooth deployment.",
       duration: "Jan 2025 — Present",
-      link: "#", // placeholder
+      link: "https://github.com/bhadra06/hospital-management-system",
       gradient: "from-purple-500/10 to-pink-500/10"
     }
   ];
